@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
 
-*{
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -331,7 +331,36 @@ aside{
     margin-top: 25px;
     
 } 
+.Skills{
+    width: 100%;
+    background-color: #c0bcbc;
+    padding: 50px; 
+}
+.Skills h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 12%;
 
+}
+.Skills p{
+    font-family: "Inria Sans";
+}
+.Container-s {
+    width: 100%; 
+    background-color: #ddd;
+}
+.skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+}
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 10%; background-color: #f44336;} 
+.php {width: 85%; background-color: #808080;}
 
 .C-card{
     display: flex;
